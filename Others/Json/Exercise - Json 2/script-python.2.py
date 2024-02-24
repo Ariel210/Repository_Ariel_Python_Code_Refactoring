@@ -6,4 +6,11 @@ def second_exercise_json():
         
         print(load_dates)
         print(type(load_dates))
+        
+        print("\n")
+        
+        for key in load_dates['diccionary_information'].keys():
+            print(f"Keys of the diccionary: {key}")
+        for values in load_dates['diccionary_information'].values():
+            print(f"Values of the diccionary: {values}")
 second_exercise_json()
